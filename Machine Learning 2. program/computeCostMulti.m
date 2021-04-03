@@ -1,0 +1,1 @@
+function J = computeCostMulti(X, y, theta)m = length(y); % number of training examplesJ = 0;a = (X * theta) - y;J = (1 / (2 * m)) * (a' * a);end
